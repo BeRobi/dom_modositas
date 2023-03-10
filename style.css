@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+main{
+  margin: auto;
+  max-width: 90%;
+}
+
+article{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  justify-content: center;
+}
+
+article div{
+  block-size: fit-content;
+  flex: 0 0 calc(25% - 5px);
+}
+
+article div img{
+  block-size: fit-content;
+  max-width: 300px;
+  min-width: 100%;
+  object-fit: cover;
+  vertical-align: bottom;
+}
+
+.szegely{
+  border: 10px solid rgb(69, 69, 73);
+  padding: 0;
+}
+
+@media screen and (max-width: 1200px){
+  article div{
+    flex: 0 0 calc(50% - 5px);
+  }
+}
