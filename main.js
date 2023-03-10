@@ -2,11 +2,11 @@ window.addEventListener("load", init);
 
 function init() {
   const KEPEK = [
-    "./pic1.JPG",
-    "./pic2.JPG",
-    "./pic3.JPG",
-    "./pic4.JPG",
-    "./pic5.JPG",
+    "pic1.JPG",
+    "pic2.JPG",
+    "pic3.JPG",
+    "pic4.JPG",
+    "pic5.JPG",
   ];
 
   const KEPEKHELYE = document.getElementsByTagName("article");
